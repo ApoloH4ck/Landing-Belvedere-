@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #0b1f36;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    gap: 40px;
+}
+
+form {
+    flex: 1;
+}
+
+.info {
+    flex: 1;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    border: none;
+    border-bottom: 1px solid #0b1f36;
+    padding: 8px 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.privacy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.privacy a {
+    color: #0b1f36;
+    text-decoration: underline;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid red;
+    background: none;
+    color: red;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background: red;
+    color: #fff;
+}
+
+.tagline {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0 20px;
+}
+
+p {
+    line-height: 1.6;
+}

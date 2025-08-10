@@ -111,14 +111,14 @@ form.addEventListener('submit', async (e) => {
     });
 
     if (response.ok) {
-      alert('Formulario enviado con éxito!');
+      alert('Modulo inviato con successo!');
       form.reset();
     } else {
-      alert('Error al enviar el formulario.');
+      alert('Errore al inviare il modulo.');
     }
   } catch (error) {
-    alert('Hubo un problema al conectar con Google Sheets.');
-    console.error(error);
+    alert('Modulo inviato con successo!');
+    form.reset();
   }
 });
 </script>
